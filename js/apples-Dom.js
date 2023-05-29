@@ -9,7 +9,7 @@ var recommendedPacketPriceOutput = document.querySelector("#recommendedPacketPri
 
 // Function to calculate apple price
 function calculateApplePrice() {
-  // Get input values
+  
   var boxCost = parseFloat(boxCostInput.value);
   var boxApples = parseInt(boxApplesInput.value);
   var packetSize = parseInt(packetSizeInput.value);
@@ -27,7 +27,7 @@ function calculateApplePrice() {
   // Calculate the recommended packet price
   var recommendedPacketPrice = costPricePerPacket * (1 + profitPercentage / 100);
 
-  // Update the result fields in the HTML
+
   numPacketsOutput.value = numPackets;
   costPricePerAppleOutput.value = costPricePerApple.toFixed(2);
   costPricePerPacketOutput.value = costPricePerPacket.toFixed(2);

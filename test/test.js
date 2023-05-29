@@ -13,7 +13,7 @@ describe('createApplePriceCalculator', function() {
       assert.strictEqual(result.sellingPricePerPacket, 2.4);
     });
   
-  it('should handle large input values', function() {
+  it('should handle large input values correctly', function() {
         const boxCost = 1000;
         const boxApples = 5000;
         const packetSize = 10;

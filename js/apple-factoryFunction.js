@@ -1,5 +1,5 @@
 function createApplePriceCalculator(boxCost, boxApples, packetSize, desiredProfit) {
-    // Calculate cost price per apple
+    // Calculate cost price per apple 
     var costPricePerApple = boxCost / boxApples;
   
     // Calculate cost price per packet
