@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div  class="My_Apple_data">
+    <h1> Apple packet price planner</h1>
+
+    <h2>Apple buying data</h2>
+    
+    <div class="data">
+        <div>
+            <label for="name">Cost price for a box of apples</label>
+            <input type="text" id="boxCost" class="textString">
+            <br>
+        </div>
+       
+    <div>
+        <label for="name">Number of apples in the box </label>
+        <input type="text" id="boxApples" class="textString">
+        <br>
+    </div>
+       
+      <div>
+        <label for="name">The packet size apples are sold in </label>
+        <input type="text" id="packetSize" class="textString">
+        <br>
+      </div>
+        
+        <div>
+            <label for="name">Required profit %</label>
+            <input type="text" id="profitPercentage" class="textString">
+            <br>
+        </div>
+
+     <button class="button-primary calcBtn" on type="button" name="button">Calculate</button>
+    
+    </div>
+
+    
+
+
+
+
+
+
+
+
+    <div>
+        <h2>Apple price calculataions</h2>
+        
+        <label for="name">Number of packets</label>
+        <input type="text" id="numPackets" class="textString">
+        <br>
+
+        <label for="name">Cost price per apple </label>
+        <input type="text" id="costPricePerApple" class="textString">
+        <br>
+
+        <label for="name">Cost price per packet </label>
+        <input type="text" id="costPricePerPacket" class="textString">
+        <br>
+
+        <label for="name">Recommened packet price</label>
+        <input type="text" id="recommendedPacketPrice" class="textString">
+        <br>
+
+
+
+
+
+
+    </div>
+
+</div>
+
+<script>
+<button class="button-primary calcBtn" type="button" onclick="calculateApplePrice()">Calculate</button>
+</script>
+
+
+    
+</body>
+</html>
